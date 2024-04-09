@@ -1,0 +1,15 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav_item{
+cursor: pointer;
+font-weight: 600;
+}

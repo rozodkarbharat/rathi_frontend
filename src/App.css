@@ -1,5 +1,30 @@
 .App {
   text-align: center;
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+
+.modal {
+  width: 50%;
+  background-color: gray;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.close {
+  width: 95%;
+  text-align: right;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .App-logo {
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

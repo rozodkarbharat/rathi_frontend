@@ -1,0 +1,32 @@
+table{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.weekday{
+    margin: 2px 0px;
+}
+
+.delete_btn{
+    color: #fff;
+    background-color: #ff1920 ;
+    /* height: 22px; */
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.edit_btn{
+    color: #fff;
+    background-color: #4070f4  ;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
